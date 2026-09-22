@@ -1,0 +1,63 @@
+{
+  "runs": [
+    {
+      "n": 250,
+      "brute_s": 0.11272066697711125,
+      "brute_calls": 31125,
+      "brute_peak_bytes": 6744,
+      "lsh_s": 0.6775709579815157,
+      "lsh_calls": 0,
+      "lsh_peak_bytes": 904217
+    },
+    {
+      "n": 500,
+      "brute_s": 0.4565311669721268,
+      "brute_calls": 124750,
+      "brute_peak_bytes": 6752,
+      "lsh_s": 1.191785333037842,
+      "lsh_calls": 10,
+      "lsh_peak_bytes": 1376748
+    },
+    {
+      "n": 1000,
+      "brute_s": 1.8739167499588802,
+      "brute_calls": 499500,
+      "brute_peak_bytes": 6752,
+      "lsh_s": 2.19879224995384,
+      "lsh_calls": 29,
+      "lsh_peak_bytes": 2200048
+    },
+    {
+      "n": 2000,
+      "brute_s": 7.758624207985122,
+      "brute_calls": 1999000,
+      "brute_peak_bytes": 6752,
+      "lsh_s": 4.232620124996174,
+      "lsh_calls": 136,
+      "lsh_peak_bytes": 3635524
+    },
+    {
+      "n": 4000,
+      "brute_s": 32.21819329098798,
+      "brute_calls": 7998000,
+      "brute_peak_bytes": 6808,
+      "lsh_s": 8.37610766600119,
+      "lsh_calls": 553,
+      "lsh_peak_bytes": 6480521
+    },
+    {
+      "n": 8000,
+      "brute_s": 129.31240887497552,
+      "brute_calls": 31996000,
+      "brute_peak_bytes": 6808,
+      "lsh_s": 16.803994457994122,
+      "lsh_calls": 2132,
+      "lsh_peak_bytes": 11879737
+    }
+  ],
+  "machine": {
+    "platform": "macOS-15.6.1-arm64-arm-64bit-Mach-O",
+    "processor": "arm",
+    "python": "3.13.0"
+  }
+}
