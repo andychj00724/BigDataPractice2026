@@ -1,0 +1,49 @@
+{
+  "runs": [
+    {
+      "n": 100000,
+      "true_distinct": 36702,
+      "exact_s": 0.1569332079961896,
+      "exact_peak_bytes": 3925628,
+      "fm_estimate": 32768.0,
+      "fm_s": 10.849098042002879,
+      "fm_peak_bytes": 4357,
+      "fm_ratio": 0.8928123807966868
+    },
+    {
+      "n": 400000,
+      "true_distinct": 146970,
+      "exact_s": 0.6623660830082372,
+      "exact_peak_bytes": 11591324,
+      "fm_estimate": 131072.0,
+      "fm_s": 43.190101417014375,
+      "fm_peak_bytes": 4359,
+      "fm_ratio": 0.8918282642716201
+    },
+    {
+      "n": 1600000,
+      "true_distinct": 587625,
+      "exact_s": 2.833408916951157,
+      "exact_peak_bytes": 46647622,
+      "fm_estimate": 524288.0,
+      "fm_s": 172.7997335830005,
+      "fm_peak_bytes": 4359,
+      "fm_ratio": 0.8922152733460966
+    },
+    {
+      "n": 6400000,
+      "true_distinct": 2349909,
+      "exact_s": 11.857688750023954,
+      "exact_peak_bytes": 188287602,
+      "fm_estimate": 2097152.0,
+      "fm_s": 693.3629814160522,
+      "fm_peak_bytes": 4359,
+      "fm_ratio": 0.8924396646848878
+    }
+  ],
+  "machine": {
+    "platform": "macOS-15.6.1-arm64-arm-64bit-Mach-O",
+    "processor": "arm",
+    "python": "3.13.0"
+  }
+}
